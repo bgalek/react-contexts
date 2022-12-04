@@ -1,7 +1,7 @@
 import React from "react";
 
 type UserSettingsHook<T> = {
-    settings?: T;
+    settings: T;
     setSettings: (key: keyof T, value: unknown) => void;
     clearSettings: () => void;
 };
